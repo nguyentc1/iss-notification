@@ -15,8 +15,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate,UITableViewData
     
     //json structure as defined in http://open-notify.org/Open-Notify-API/ISS-Pass-Times/
     struct issJsonRequest: Codable{
-        let latitude,longitude,altitude: Float
-        let passes,datetime: Double
+        let latitude,longitude,altitude,passes,datetime: Double
     }
     struct issPass:Codable{
         let risetime: Double
