@@ -20,6 +20,12 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>Privacy – Location Always Usage Description</key>
+	<string>Required for ISS api</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Required for ISS api</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Required for ISS api</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -28,6 +34,11 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
